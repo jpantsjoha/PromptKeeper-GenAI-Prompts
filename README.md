@@ -23,10 +23,18 @@ This project is especially useful for those who regularly interact with various 
 ## List of Prompts in Backup JSON
 The extension comes preloaded with four insightful prompts:
 
-1. **Research Assistant**: Designed for academic or in-depth research purposes. Best used on sites offering scholarly articles or detailed reports.
-2. **Creative Writer**: Sparks creativity for those moments of writer's block. Test on sites providing storytelling or creative writing platforms.
-3. **Code Helper**: Assists users in understanding and writing code snippets. Ideal for use on developer forums or tech-focused Q&A websites.
-4. **Language Practitioner**: Aids in language learning and practice. Utilize on various language exchange and learning sites to enhance your proficiency.
+| Prompt Title           | User Maturity Level | GenAI Identity Category   | GenAI Task Readiness Score (Out of 10) |
+|------------------------|---------------------|---------------------------|----------------------------------------|
+| Research Assistant     | Advanced            | Professional Advisor      | 9                                      |
+| Creative Writer        | Beginner            | Coach                     | 8                                      |
+| Code Helper            | Intermediate        | Instructor                | 7                                      |
+| Language Practitioner  | Beginner            | Intern                    | 6                                      |
+
+**Column Explanations:**
+- **Prompt Title**: The name of the prompt as found in the `PromptKeeper_initialPrompts_1.0.7.json` file.
+- **User Maturity Level**: The recommended experience level of the user for which the prompt is best suited. Ranges from `Beginner` to `Intermediate` to `Advanced`.
+- **GenAI Identity Category**: The role that the GenAI assumes when using this prompt. Categories include `Coach`, `Instructor`, `Professional Advisor`, and `Intern`.
+- **GenAI Task Readiness Score**: A self-assessed score indicating GenAI (GPT as tested) understanding of the task described in the prompt. It signifies if there are any further questions or clarifications needed before I'm ready to address user queries. Scored out of 10.
 
 ## More Information
 For more information on how PromptKeeper came into existence, visit the inaugural [Medium post](https://itnext.io/promptkeeper-onestopshop-genai-prompt-management-with-a-chrome-extension-56785ba02b75) :D
